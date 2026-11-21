@@ -37,8 +37,6 @@ Unlike traditional cloud-only workflows, this project runs locally in **Visual S
 ```text
 Bird-Species-Classification/
 │
-├── .vscode/
-│   └── settings.json
 ├── outputs/
 │   └── snn_birds_best.pt                   # Best trained SNN model weights (89.5% accuracy)
 ├── test_images/
@@ -46,8 +44,8 @@ Bird-Species-Classification/
 │   └── test_peacock.png                    # Sample test image (Indian-Peacock)
 ├── .gitignore
 ├── SNN_Birds_VSCode_GoogleDrive_API.ipynb  # Main training, evaluation & inference notebook
-└── README.md
-```
+├── README.md                               # Project documentation (English)
+└── README_TH.md                            # Project documentation (Thai)
 
 > **Note:** Local virtual environments (`.venv/`), raw dataset files (`data/Image_Dataset/`), and OAuth secret files (`credentials.json` & `token.json`) are excluded via `.gitignore`.
 
