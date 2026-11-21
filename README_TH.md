@@ -39,8 +39,6 @@
 ```text
 Bird-Species-Classification/
 │
-├── .vscode/
-│   └── settings.json
 ├── outputs/
 │   └── snn_birds_best.pt                   # ไฟล์น้ำหนักโมเดล SNN ที่ดีที่สุด (ความแม่นยำ 89.5%)
 ├── test_images/
@@ -50,7 +48,6 @@ Bird-Species-Classification/
 ├── SNN_Birds_VSCode_GoogleDrive_API.ipynb  # ไฟล์หลักสำหรับเทรน ประเมินผล และทดสอบทำนายภาพ
 ├── README.md                               # เอกสารอธิบายโปรเจกต์ (ภาษาอังกฤษ)
 └── README_TH.md                            # เอกสารอธิบายโปรเจกต์ (ภาษาไทย)
-```
 
 > **หมายเหตุ:** สภาพแวดล้อมเสมือน (`.venv/`), ไฟล์รูปภาพดิบ (`data/Image_Dataset/`) และไฟล์รหัสผ่าน OAuth (`credentials.json` และ `token.json`) ถูกซ่อนไว้ด้วย `.gitignore` เพื่อความปลอดภัย
 
